@@ -25,9 +25,9 @@ var checkbox = document.getElementById('box');
 console.log(checkbox);
 checkbox.onchange= function() {
     if (this.checked) {
-        alert('bạn vừa ghi nhớ mật khẩu');
+        alert('Đã ghi nhớ mật khẩu');
     } else {
-        alert('Bạn vừa bỏ lưu mật khẩu');
+        alert('Đã bỏ lưu mật khẩu');
         pass.value="";
     }
 }

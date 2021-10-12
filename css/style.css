@@ -10,6 +10,7 @@ html, body{
     font-family: 'Varela Round', sans-serif;
     font-size: 18px;
 }
+/* navbar */
 .navbar {
     background-color: #212529;
 }
@@ -38,6 +39,7 @@ i {
 .btn:hover{
     color: #2c2ec0;
 }
+/* content */
 .content{
     background-image: url(../img/81RTZEw.png);
     color: #faf9f8;
@@ -107,6 +109,7 @@ p {
 .img{
     width: 100%;
 }
+/* footer */
 .footer {
   background-color: #212529;
   color: #faf9f8;

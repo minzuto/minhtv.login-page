@@ -15,10 +15,8 @@ function show() {
         alert("Bạn đã nhập sai tài khoản hoặc mật khẩu");
         tb.style.color='#f44336';}
      }     
-function reset() {
-    user.value='';
-    pass.value='';
-    tb.innerHTML='Vui lòng nhập tài khoản/mật khẩu';
+function resettb() {
+     tb.innerHTML='Vui lòng nhập tài khoản/mật khẩu';
     tb.style.color='#faf9f8';
 }
 var checkbox = document.getElementById('box');

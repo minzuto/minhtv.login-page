@@ -55,48 +55,49 @@
   </nav>
 
 <!-- content -->
-  <div class="content">
-    <div id="main" class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-4 px-0 form">
-          <div class="login-form">
-            <div class="top">
-              <h1><i class="fas fa-sign-in-alt"></i> Đăng nhập</h1>
-              <p id="thongbao" class="mb-3">Vui lòng nhập tài khoản/mật khẩu</p>
-            </div>
-            <div class="username mb-3">
-              <label>Tài khoản</label>
-              <div class="bor flex">
-                <i class="fas fa-user"></i>
-              <input id="user" type="text" class="form-control rounded-pill border-0" value=""
-                placeholder="Tên đăng nhập">
-              </div>
-            </div>
-            <div class="password mb-3">
-              <label>Mật khẩu</label>
-              <div class="bor flex">
-                <i class="fas fa-lock"></i>
-              <input id="pass" type="password" class="form-control rounded-pill border-0" value=""
-                placeholder="Mật khẩu">
-                </div>
-            </div>
-            <div class="form-check mb-2">
-              <input id="box" class="form-check-input" type="checkbox">
-              <label class="form-check-label">Ghi nhớ mật khẩu</label>
-            </div>
-            <div class="d-grid gap-2 logres">
-              <button class="btn rounded-pill log" onclick="show()" type="submit"><i class="fas fa-sign-in-alt"></i> Đăng nhập</button>
-              <button class="btn mb-2 rounded-pill res" onclick="reset()" type="reset"><i class="fas fa-exclamation-triangle"></i> Reset</button>
-            </div>
-            <div class="regis d-grid gap-2">
-              <a class="text1 text-center" href="#">Đăng ký tài khoản</a>
-              <a class="text1 text-center" href="#">Khôi phục tài khoản</a>
+<div class="content">
+  <div id="main" class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-4 px-0">
+        <form class="login-form" name="loginform">
+          <div class="top">
+            <h1><i class="fas fa-sign-in-alt"></i> Đăng nhập</h1>
+            <p id="thongbao" class="mb-3">Vui lòng nhập tài khoản/mật khẩu</p>
+          </div>
+          <div class="username mb-3">
+            <label for="user">Tài khoản</label>
+            <div class="flex">
+              <i class="fas fa-user"></i>
+            <input id="user" type="text" name="user" class="form-control rounded-pill border-0" value=""
+              placeholder="Tên đăng nhập">
             </div>
           </div>
-        </div>
+          <div class="password mb-3">
+            <label for="pass">Mật khẩu</label>
+            <div class="flex">
+              <i class="fas fa-lock"></i>
+            <input id="pass" type="password" name="pass" class="form-control rounded-pill border-0" value=""
+              placeholder="Mật khẩu">
+              </div>
+          </div>
+          <div class="form-check mb-2">
+            <input id="box" class="form-check-input" type="checkbox">
+            <label class="form-check-label">Ghi nhớ mật khẩu</label>
+          </div>
+          <div class="d-grid gap-2 logres">
+            <button class="btn rounded-pill log" onclick="show()" type="submit"><i class="fas fa-sign-in-alt"></i> Đăng nhập</button>
+            <button class="btn mb-2 rounded-pill res" type="reset" onclick="resettb()"><i class="fas fa-exclamation-triangle"></i> Reset</button>
+          </div>
+          <div class="regis d-grid gap-2">
+            <a class="text1 text-center" href="#">Đăng ký tài khoản</a>
+            <a class="text1 text-center" href="#">Khôi phục tài khoản</a>
+          </div>
+          </form>
         </div>
       </div>
+      </div>
     </div>
+  </div>
 
 <!-- footer -->
   <div class="footer container-fluid">
